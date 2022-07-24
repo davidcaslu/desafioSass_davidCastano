@@ -1,0 +1,27 @@
+.section_tarjetas {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjetas {
+    margin: 25px;
+    transition: all 1s;
+}
+
+.tarjetas img{
+    border-radius: 10px;
+}
+
+.tarjetas:hover {
+    transform:scale(1.02)
+}
+
+.p_tarjetas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black
+}
